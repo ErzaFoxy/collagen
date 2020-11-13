@@ -1,0 +1,42 @@
+@media (min-width: 1200px)
+    .navbar-brand>h1
+        font-size: 1.8rem
+    a.nav-link
+        font-size: 1.5rem
+        @include link()
+
+@media (max-width: 1026px)
+    a.nav-link
+        font-size: 1.3rem
+    .navbar-brand>h1
+        font-size: 1.8rem
+
+@media (max-width: 769px)
+    .navbar-brand>h1
+        font-size: 1.2rem
+    a.nav-link
+        font-size: 1rem
+        @include link()
+
+@media (max-width: 426px)
+    .navbar-brand>h1
+        font-size: 1.2rem
+    a.nav-link
+        color: $link-color !important
+        display: block !important
+        text-align: center
+        font-size: 1.1rem
+
+nav
+    background-color: #040234cc
+    a.nav-link
+        color: $link-color !important
+        padding: 0 !important
+        font-weight: 400
+        display: inline-block
+        line-height: 1.5
+        text-decoration: none
+        position: relative
+    .navbar-brand>h1
+        color: $highlight
+        font-weight: 500

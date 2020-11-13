@@ -1,0 +1,16 @@
+@mixin link()
+    &:hover
+        color: $link-color !important
+        text-decoration: none
+    &::after
+        display: block
+        content: ""
+        background-color: $link-color
+        height: 2px
+        width: 0%
+        left: 50%
+        transform: translateX(-50%)
+        position: absolute
+        transition: all 0.3s ease-in-out
+    &:hover::after
+        width: 100%
