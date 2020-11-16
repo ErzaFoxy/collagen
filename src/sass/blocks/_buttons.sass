@@ -3,17 +3,23 @@
         font-size: 1.2rem
         &_size
             font-size: 1.5rem
+        &_catalog
+            font-size: 1.3rem
 
 @media (max-width: 1025px)
     .button
         font-size: 1rem
         &_size
             font-size: 1.2rem
+        &_catalog
+            font-size: 1rem
 
 @media (max-width: 768px)
     .button
         font-size: 0.9rem
         &_size
+            font-size: 1.1rem
+        &_catalog
             font-size: 1.1rem
 
 @media (max-width: 426px)
@@ -26,20 +32,24 @@
             margin-right: 0
             margin-left: auto
             font-size: 1.2rem
+        &_catalog
+            font-size: 1.2rem
 
 @media (max-width: 321px)
     .button
         &_size
             font-size: 1rem
+        &_catalog
+            font-size: 1rem
 
 .button
-    background-color: $text-color
-    color: $link-color
+    background-color: $btn-color
+    color: $text-color
     font-weight: 500
-    border: 1.5px solid $link-color
+    border: 1.5px solid $btn-color
     transition: 1s all
     &:hover
-        background-color: $link-color
-        color: $text-color
+        background-color: $text-color
+        color: $btn-color
     &:focus
         box-shadow: none
