@@ -1,139 +1,17 @@
-let catalogArray = [{
-        'image': '<img src="images/artroflex_gel_300px.jpg" class="img-fluid rounded catalog_img-size">',
-        'descr': 'Гель ARTROFLEX NUTRAXIN, 100 мл',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/artroflex_red_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка ARTROFLEX HYA-C-II NUTRAXIN, 90 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/b-one_formula_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка B-ONE FORMULA NUTRAXIN, 90 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/CoQ-10_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Коэнзим Q10" NUTRAXIN, 30 капсул',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/immun-s_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка IMMUN-S NUTRAXIN, 60 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/saw_palmetto_formula_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка SAW PALMETTO FORMULA NUTRAXIN, 60 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/chromium_picolinate_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Пиколинат хрома" NUTRAXIN, 90 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/zinc_sulphate_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Цинк" NUTRAXIN, 100 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/folic_acid_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Фолиевая кислота" NUTRAXIN, 100 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/selenium_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Селен" НУТРАКСИН, 100 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/biotin_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Биотин 5000 мкг" NUTRAXIN, 30 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/vitamin_d3_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Витамин D3" NUTRAXIN, 120 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/vitamin_b12_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Витамин В12" NUTRAXIN, 60 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/psyllium_husk_fiber_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Псилиум клетчатка" NUTRAXIN, 30 саше',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/propolis_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Прополис-спрей" NUTRAXIN, 30 мл',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/a-oxi_formula_300px.jpg" class="img-fluid rounded catalog_img-size">',
-        'descr': 'Диетическая добавка A-OXI FORMULA NUTRAXIN, 60 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/cleanse_formula7_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка для очистки организма CLEANSE FORMULA NUTRAXIN, 14 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/thermo_burn_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка для очистки организма CLEANSE FORMULA NUTRAXIN, 14 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/ginkgo_biloba_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Растительная добавка "Гинкго билоба" NUTRAXIN, 60 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/natural_sleep_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Растительная добавка NATURAL SLEEP NUTRAXIN, 60 капсул',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/bromelain_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Растительная добавка "Бромелайн" NUTRAXIN, 60 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/milk_thistlegit_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Растительная добавка "Расторопша" NUTRAXIN, 60 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/ultra_men_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка для мужчин ULTRAMEN NUTRAXIN, 60 таблеток',
-        'cost': '777',
-    },
-    {
-        'image': '<img src="images/vitamin_c_300px.jpg" class="img-fluid rounded">',
-        'descr': 'Диетическая добавка "Витамин С" NUTRAXIN, 28 таблеток',
-        'cost': '777',
-    }
-];
-
 const catalogItem = ({ image, descr, cost }) => {
     return ` 
 <div class="col-lg-4 col-md-6 col-sm-12 catalog__card">
     <div class="card h-100 p-lg-3 p-md-3 p-md-3 p-2">
-        ${image}
+        <div class="catalog_link-img">${image}</div>
         <div class="card-body">
-            <div class="catalog__descr card-title pb-lg-3">${descr}</div>
+            <div class="catalog__descr catalog_link card-title pb-lg-3">${descr}</div>
             <hr>
             <div class="row align-items-end pt-lg-3 pt-md-3">
                 <div class="col-md-6 col-6">
                     <div class="catalog__cost text-uppercase">${cost}UAH</div>
                 </div>
                 <div class="col-md-6 col-6">
-                    <button class="btn badge-pill text-uppercase button button_catalog py-xl-2 px-lg-4 py-lg-1 px-md-4 py-md-1 px-4 py-1">купить</button>
+                    <button class="btn badge-pill text-uppercase button button_catalog py-xl-2 px-lg-4 py-lg-1 px-md-4 py-md-1 px-4 py-1" data-toggle="modal" data-target="#order">купить</button>
                 </div>
             </div>
         </div>
@@ -142,6 +20,96 @@ const catalogItem = ({ image, descr, cost }) => {
 `
 };
 
+const listItem = (item) => {
+    return `<li>${item}</li>`
+}
+
+const catalogModalItem = ({ image, title, subtitle, descrTitle, descr, list, descrLast, use, composition, cost }) => {
+    return ` 
+<div class="modal fade catalog-modal__item" tabindex="-1" role="dialog" aria-labelledby="order" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            <div class="modal-body row">
+                <div class="col-lg-6 col-md-12">${image}
+                    <h4 href="#" class="catalog-modal__title text-lg-left text-center">${title}</h4>
+                    <div class="catalog-modal__subtitle">${subtitle}</div>
+                </div>
+                
+                <div class="col-lg-6 col-md-12">
+                <hr class="mt-lg-0">
+                    <ul class="nav-modal row justify-content-center">
+                        <li class="nav-modal__catalog nav-modal__catalog_active col-lg-4 col-md-3 col-4">
+                            Описание
+                        </li>
+                        <li class="nav-modal__catalog col-lg-5 col-md-4 col-5 text-md-center">
+                            Применение
+                        </li>
+                        <li class="nav-modal__catalog col-lg-3 col-md-3 col-3 text-md-center">
+                            Состав
+                        </li>
+                    </ul>
+                    <hr>
+
+                    <div class="catalog-modal__content catalog-modal__content_active">
+                        <p class="text-center text-uppercase mb-2">${descrTitle}</p>
+                        ${descr}
+                            <ul class="catalog-modal__list mb-0 text-left">${list.map(listItem).join(' ')}</ul>
+                        ${descrLast}
+                    </div>
+
+                    <div class="catalog-modal__content">
+                        ${use}
+                    </div>
+
+                    <div class="catalog-modal__content">
+                        ${composition}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+`
+};
+
+
 $(document).ready(function() {
     $('#catalog').prepend(catalogArray.map(catalogItem).join(' '));
+    $('#modal-catalog-items').prepend(catalogArrayModal.map(catalogModalItem).join(' '));
+
+    //Modal
+    $('.button_catalog').each(function(i) {
+        $(this).on('click', function() {
+            $('#order .modal__descr').text($('.catalog__descr').eq(i).text());
+        })
+    });
+
+    $('.button_buy').each(function(i) {
+        $(this).on('click', function() {
+            $('#order .modal__descr').text($('.main-product__title').eq(i).text());
+        })
+    });
+
+    $('.catalog_link').each(function(i) {
+        $(this).on('click', function() {
+            $('.catalog-modal__item').eq(i).modal('show');
+        });
+    });
+
+    $('.catalog_link-img').each(function(i) {
+        $(this).on('click', function() {
+            $('.catalog-modal__item').eq(i).modal('show');
+        });
+    });
+
+    $('ul.nav-modal').on('click', 'li:not(.nav-modal__catalog_active)', function() {
+        $(this)
+            .addClass('nav-modal__catalog_active').siblings().removeClass('nav-modal__catalog_active')
+            .closest('div.catalog-modal__item').find('div.catalog-modal__content').removeClass('catalog-modal__content_active').eq($(this).index()).addClass('catalog-modal__content_active');
+    });
+
+    $('input[name=phone]').mask('+38 (999) 999-99-99');
 });
