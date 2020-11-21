@@ -12,10 +12,10 @@
     <title>collagen unice</title>
 </head>
 
-<body data-spy="scroll" data-target="#collapsibleNavbar">
+<body data-spy="scroll" data-target="#collapsibleNavbar" oncontextmenu="return false" onselectstart="return false" onkeydown="if ((arguments[0] || window.event).ctrlKey) return false">
     <!-- navbar -->
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-        <a class="navbar-brand ml-lg-5 ml-md-3 text-uppercase" href="#">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <a class="navbar-brand ml-lg-3 text-uppercase" href="#">
             <h1 class="mb-0">collagen unice</h1>
         </a>
         <!-- Toggler/collapsibe Button -->
@@ -32,7 +32,8 @@
                 <li class="nav-item mr-xl-5 mr-md-3">
                     <a class="nav-link " href="#contact">Контакты</a></li>
             </ul>
-            <button data-modal="call" class="btn badge-pill text-uppercase button mr-lg-5 mr-md-3 px-md-3 py-md-2" data-toggle="modal" data-target="#call">заказать звонок</button>
+            <button onclick="location.href='viber://chat?number=+380971535340'" class="btn viber badge-pill text-uppercase mr-lg-3 mr-md-1 px-md-3 py-md-2" type="button"> Заказать в <span>Viber</span></button>
+            <button data-modal="call" class="btn badge-pill text-uppercase button mr-lg-3 px-md-3 py-md-2" data-toggle="modal" data-target="#call">заказать звонок</button>
         </div>
     </nav>
 
@@ -76,12 +77,32 @@
                             как коэнзим Q10, L-карнитин и гиалуроновая кислота. <br> Морской коллаген в составе продукта представлен в гидролизованном виде для более легкого усвоения организмом. <br> Напиток имеет приятный клубничный аромат. Эффект от
                             применения:
                         </div>
-                        <a href="#" class="main-product__descr-more">Читать дальше</a>
+                        <div class="btn_main">
+                            <button class="main-product__descr-more btn btn-outline btn-hidden mx-auto" id="more">Читать дальше</button>
+                            <button class="main-product__descr-more btn btn-outline btn-hidden hidden mx-auto" id="btn-hidden">Скрыть</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="main-product__hidden" id="hidden">
+                            <ul class="mb-0 pl-md-4 pl-3">
+                                <li>видимое омоложение</li>
+                                <li>эффективное разглаживание морщин и выравнивание рельефа кожи</li>
+                                <li>замедление процессов старения организма и возрастных изменений кожи</li>
+                                <li>витаминная поддержка организма</li>
+                                <li>обеспечение соединительных тканей достаточным количеством коллагена для создания прочного каркаса всего организма</li>
+                                <li>профилактика разрушения суставов и связок, улучшение их подвижности</li>
+                                <li>улучшение синтеза коллагена в клетках кожи благодаря витамину С</li>
+                                <li>активация процессов выведения токсических веществ</li>
+                                <li>поддержание общего здорового состояния и вида кожи благодаря биотину</li>
+                            </ul>
+                            <div class="text-justify">
+                                Диетическая добавка "Коллаген" не содержит искусственных консервантов, красителей, ароматизаторов и таких потенциальных аллергенов, как сахар, соль, крахмал, дрожжи, глютен, соя, пшеница и молокопродукты.</div>
+                        </div>
                     </div>
                 </div>
                 <div class="row justify-content-md-end align-items-md-center align-items-end mt-md-3 pt-3">
                     <div class="col-md-3 col-6">
-                        <div class="main-product__cost text-uppercase">777UAH</div>
+                        <div class="main-product__cost text-uppercase">1288<span> UAH</span></div>
                     </div>
                     <div class="col-md-3 col-6">
                         <button class="btn badge-pill text-uppercase button button_buy py-xl-2 px-lg-5 py-lg-1 px-md-4 py-md-1 px-4 py-1" data-toggle="modal" data-target="#order">купить</button></div>
@@ -122,12 +143,24 @@
                             антиоксидантами, как витамин Е, сок черники и вытяжка из кожицы винограда, которые способствуют выработке собственного коллагена, очищают организм от токсинов и разрушительного воздействия свободных радикалов, улучшают цвет
                             лица, даря здоровье и отличное самочувствие.
                         </div>
-                        <a href="#" class="main-product__descr-more">Читать дальше</a>
+                        <div class="btn_main">
+                            <button class="main-product__descr-more btn btn-outline btn-hidden mx-auto" id="more_2">Читать дальше</button>
+                            <button class="main-product__descr-more btn btn-outline btn-hidden hidden mx-auto" id="btn-hidden_2">Скрыть</button>
+                        </div>
                     </div>
+                    <div class="col-12">
+                        <div class="main-product__hidden text-justify" id="hidden_2">
+                            Гидролизованный коллаген, полученный из морских рыб, и биотин в составе возвращают коже красоту и наполняют светом изнутри, улучшают эластичность, упругость и общее состояние кожи, сокращают морщины, а также укрепляют волосы и ногти. Экстракт корня астрагала
+                            усиливает омолаживающий эффект продукта, оказывает противовоспалительное действие и повышает иммунитет. Более упругая и гладкая кожа без морщин, ровный цвет лица, густые волосы, крепкие ногти, подвижные суставы и прекрасное
+                            самочувствие - далеко не все преимущества питьевого коллагена UNICE.<br>Принимая напиток, вы заметите и почувствуете разницу уже в течение 8 дней, и с каждым днем ​​результаты будут только улучшаться.
+                            <br>Продукт хорошо усваивается организмом. Не содержит ГМО, глютена, кофеина, спирта и искусственных консервантов.
+                        </div>
+                    </div>
+
                 </div>
                 <div class="row justify-content-md-end align-items-md-center align-items-end mt-md-3 pt-3">
                     <div class="col-md-3 col-6">
-                        <div class="main-product__cost text-uppercase">777UAH</div>
+                        <div class="main-product__cost text-uppercase">749<span> UAH</span></div>
                     </div>
                     <div class="col-md-3 col-6">
                         <button class="btn badge-pill text-uppercase button button_buy py-xl-2 px-lg-5 py-lg-1 px-md-4 py-md-1 px-4 py-1" data-toggle="modal" data-target="#order">купить</button></div>
@@ -135,14 +168,94 @@
             </div>
         </section>
         <hr>
+
         <section class="catalog">
-            <div class="container pt-md-5 pt-3">
+            <div class="container pt-md-5 pt-3 pb-md-5 pb-3">
                 <div class="catalog__title text-center text-uppercase">Каталог товаров</div>
                 <div id="catalog" class="row pt-lg-4 pt-md-2">
 
                 </div>
             </div>
         </section>
+        <hr>
+
+        <section class="about" id="about">
+            <div class="container pt-md-5 pt-3 pb-md-5 pb-3">
+                <h6 class="about__title text-center text-uppercase">КОМПАНИЯ <span>UNICE</span> является официальным импортером<br>Диетических добавок NUTRAXIN® В УКРАИНЕ</h6>
+                <img src="icons/emblem.png" alt="emblem" class="d-block mx-auto about__emblem mt-md-5 mb-md-4 mt-3 mb-3">
+                <div class="about__descr d-flex align-items-end justify-content-center">
+                    <img src="icons/turkey-flag-icon-20389 (1).png" alt="Symbols Turkey Flag" class="about__icon">
+                    <div class="about__subtitle text-center text-uppercase">BIOTA LABORATORIES (ТУРция) – ПАРТНЕР <span>UNICE</span></div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section class="sertific">
+            <div class="container pt-md-5 pt-3 pb-md-5 pb-1">
+                <div class="sertific__title text-center text-uppercase pb-md-4">наши сертификаты</div>
+                <div class="row justify-content-center">
+                    <div class="col-4"><img src="images/sertific_1.jpg" alt="sertific" data-toggle="modal" data-target="#sertific_1"></div>
+                    <div class="col-4"><img src="images/sertific_2.jpg" alt="sertific" data-toggle="modal" data-target="#sertific_2"></div>
+                    <div class="col-4"><img src="images/sertific_3.jpg" alt="sertific" data-toggle="modal" data-target="#sertific_3"></div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section class="map">
+            <div class="container pt-md-5 pt-3 pb-md-5 pb-1">
+                <div class="map__title text-center text-uppercase">BIOTA LABORATORIES имеет мировое признание и экспорт в 65 стран мира</div>
+                <img src="icons/map.png" alt="map" class="img-fluid map__img">
+                <ul class="map__list pt-md-5">
+                    <li>GMP</li>
+                    <li>ISO 22000-HACCP</li>
+                    <li>Halal</li>
+                    <li>Kosher</li>
+                    <li>ISO 9001 Quality Management System</li>
+                    <li>ISO 13485 Medical Device Quality Management System</li>
+                    <li>ISO 14001 Environment Management System</li>
+                    <li>OHSAS 18001 Occupational Health and Safety Management System</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+
+        <section class="nutraxin">
+            <div class="container pt-md-5 pt-3 pb-md-5">
+                <div class="nutraxin__title text-center text-uppercase pb-md-5 pb-3">ПОЧЕМУ именно NUTRAXIN?</div>
+                <div class="row">
+                    <div class="nutraxin__img col-md-5">
+                        <img src="icons/gmp.png" alt="GMP" class="img-fluid d-md-block">
+                        <img src="icons/glp.png" alt="GLP" class="img-fluid d-md-block">
+                    </div>
+                    <ul class="nutraxin__list col-md-7">
+                        <li>Собственные рецептуры</li>
+                        <li>Только стандартизированные экстракты</li>
+                        <li>Комфортный размер капсулы</li>
+                        <li>Постоянный контроль качества производства</li>
+                        <li>Производство по стандартам GMP и GLP</li>
+                        <li>Собственные поля из лекарственных растений</li>
+                        <li>Удобное комбинирование для ежедневного использования</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <footer class="footer" id="contact">
+            <div class="container pt-md-4 pb-md-5 pt-3 pb-4">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3 col-md-4 mb-md-0 mb-4">
+                        <a href="tel:+380971535340" class="footer__tel">+380971535340 - Оксана</a>
+                        <a href="mailto:unice_reg@ukr.net" class="footer__email pt-md-2">unice_reg@ukr.net</a>
+                    </div>
+                    <div class="col-lg-5 col-md-6 footer__descr">
+                        UNICE multibrand - косметическая компания, которая дарит красоту и безграничные бизнес-возможности.
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
 
@@ -153,18 +266,21 @@
                 <div class="modal-header">
                     <h5 class="modal-title d-block mx-auto text-uppercase" id="call">Заказать звонок</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id="callForm" method="POST" target="_blank">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" placeholder="Ваше имя" required>
                         </div>
                         <div class="form-group">
                             <input type="phone" name="phone" class="form-control" placeholder="Ваш номер телефона" required>
                         </div>
-                        <button type="submit" class="btn badge-pill text-uppercase button d-block mx-auto px-5">Заказать звонок</button>
+                        <div style="position: absolute; left: -5000px;">
+                            <input type="checkbox" name="furry_yellow_honeycomb_window" value="1" tabindex="-1" autocomplete="no">
+                        </div>
+                        <button type="submit" class="btn badge-pill text-uppercase button d-block mx-auto px-md-5 px-3">Заказать звонок</button>
                     </form>
                 </div>
             </div>
@@ -179,25 +295,82 @@
                         <div class="modal__descr"></div>
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id="orderForm" method="POST" target="_blank">
+                        <input type="text" name="order" hidden>
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" placeholder="Ваше имя" required>
                         </div>
                         <div class="form-group">
                             <input type="phone" name="phone" class="form-control" placeholder="Ваш номер телефона" required>
                         </div>
-                        <button type="submit" class="btn badge-pill text-uppercase button button_modal d-block mx-auto">Заказать</button>
+                        <div style="position: absolute; left: -5000px;">
+                            <input type="checkbox" name="furry_yellow_honeycomb_window" value="1" tabindex="-1" autocomplete="no">
+                        </div>
+                        <button type="submit" class="btn badge-pill text-uppercase button button_modal d-block mx-auto px-md-5 px-4">Заказать</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="catalog-modal" id="modal-catalog-items"></div>
+    <div class="modal modal-mini fade" id="thanks" tabindex="-1" role="dialog" aria-labelledby="thanks" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content p-2">
+                <div class="modal-header text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="mx-auto">Спасибо за Ваш заказ!</div>
+                </div>
+                <div class="d-block mx-auto text-center">Мы свяжемся с Вами в течении двух часов.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal sertific_modal fade" id="sertific_1" tabindex="-1" role="dialog" aria-labelledby="sertific_1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/sertific_1.jpg" alt="sertific">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal sertific_modal fade" id="sertific_2" tabindex="-1" role="dialog" aria-labelledby="sertific_2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/sertific_2.jpg" alt="sertific">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal sertific_modal fade" id="sertific_3" tabindex="-1" role="dialog" aria-labelledby="sertific_3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/sertific_3.jpg" alt="sertific">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="catalog-modal" id="modal-catalog-items"></section>
 
 
 
@@ -205,7 +378,7 @@
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/array.js"></script>

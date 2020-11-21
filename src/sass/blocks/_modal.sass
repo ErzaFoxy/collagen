@@ -31,7 +31,10 @@
 
 
 @media (max-width: 426px)
+    .modal-mini
+        margin-left: -0.5rem
     .modal-call
+        margin-left: 3rem
         .modal
             &-dialog
                 max-width: 20rem
@@ -41,6 +44,7 @@
 
 @media (max-width: 376px)
     .modal-call
+        margin-left: 1.2rem
         .modal
             &-dialog
                 max-width: 20rem
@@ -50,6 +54,7 @@
 
 @media (max-width: 321px)
     .modal-call
+        margin-left: 0
         .modal
             &-dialog
                 max-width: 20rem
@@ -65,3 +70,9 @@
         right: 0.7rem
         &:focus
             outline: none
+    &-mini
+        font-size: 1.2rem
+        .close
+            text-align: right
+            &:focus
+                outline: none

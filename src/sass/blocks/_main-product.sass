@@ -5,8 +5,12 @@
             &-more
                 font-size: 1.5rem
                 @include link()
+        &__hidden
+            font-size: 1.5rem
         &__cost
             font-size: 3rem
+            span
+                font-size: 2.5rem
 
 @media (max-width: 1025px)
     .main-product
@@ -18,8 +22,12 @@
             &-more
                 font-size: 1.5rem
                 @include link()
+        &__hidden
+            font-size: 1.35rem
         &__cost
             font-size: 2rem
+            span
+                font-size: 1.5rem
 
 @media (max-width: 769px)
     .main-product
@@ -31,6 +39,8 @@
             text-align: left !important
             &-more
                 font-size: 1.3rem
+        &__hidden
+            font-size: 1rem
         &__cost
             font-size: 1.8rem
 
@@ -50,24 +60,29 @@
                 text-align: center !important
             &-more
                 font-size: 1.2rem
+        &__hidden
+            font-size: 1.1rem
         &__cost
             font-size: 1.7rem
+            span
+                font-size: 1.4rem
 
 @media (max-width: 376px)
     .main-product
         &__descr
+            font-size: 1rem
+        &__hidden
             font-size: 1rem
 
 @media (max-width: 321px)
     .main-product
         &__descr
             font-size: 0.99rem
-        &__cost
-            font-size: 1.4rem
+        &__hidden
+            font-size: 0.99rem
 
 
 .main-product
-
     &__title
         color: $highlight
         font-weight: 500
@@ -84,6 +99,13 @@
             display: inline-block
             line-height: 1.5
             position: relative
+            background-color: none
+            &:focus
+                box-shadow: none
+    &__hidden
+        color: $text-color
+        font-weight: 300
+        display: none
     &__cost
         color: $text-color
         font-weight: 400
@@ -93,3 +115,8 @@
             color: #000000 !important
     .carousel-control-next
         width: 2rem
+    .hidden
+        display: none
+
+.btn-hidden
+    display: block

@@ -1,127 +1,127 @@
 let catalogArray = [{
         'image': '<img src="images/artroflex_gel_300px.jpg" class="img-fluid rounded catalog_img-size">',
         'descr': 'Гель ARTROFLEX NUTRAXIN, 100 мл',
-        'cost': '777'
+        'cost': '199'
     },
     {
         'image': '<img src="images/artroflex_red_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка ARTROFLEX HYA-C-II NUTRAXIN, 90 таблеток',
-        'cost': '777'
+        'cost': '1199'
     },
     {
         'image': '<img src="images/b-one_formula_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка B-ONE FORMULA NUTRAXIN, 90 таблеток',
-        'cost': '777'
+        'cost': '299'
     },
     {
         'image': '<img src="images/CoQ-10_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Коэнзим Q10" NUTRAXIN, 30 капсул',
-        'cost': '777'
+        'cost': '359'
     },
     {
         'image': '<img src="images/immun-s_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка IMMUN-S NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '489'
     },
     {
         'image': '<img src="images/saw_palmetto_formula_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка SAW PALMETTO FORMULA NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '669'
     },
     {
         'image': '<img src="images/chromium_picolinate_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Пиколинат хрома" NUTRAXIN, 90 таблеток',
-        'cost': '777'
+        'cost': '139'
     },
     {
         'image': '<img src="images/zinc_sulphate_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Цинк" NUTRAXIN, 100 таблеток',
-        'cost': '777'
+        'cost': '199'
     },
     {
         'image': '<img src="images/folic_acid_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Фолиевая кислота" NUTRAXIN, 100 таблеток',
-        'cost': '777'
+        'cost': '199'
     },
     {
         'image': '<img src="images/selenium_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Селен" НУТРАКСИН, 100 таблеток',
-        'cost': '777'
+        'cost': '189'
     },
     {
         'image': '<img src="images/biotin_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Биотин 5000 мкг" NUTRAXIN, 30 таблеток',
-        'cost': '777'
+        'cost': '215'
     },
     {
         'image': '<img src="images/vitamin_d3_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Витамин D3" NUTRAXIN, 120 таблеток',
-        'cost': '777'
+        'cost': '199'
     },
     {
         'image': '<img src="images/vitamin_b12_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Витамин В12" NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '209'
     },
     {
         'image': '<img src="images/psyllium_husk_fiber_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Псилиум клетчатка" NUTRAXIN, 30 саше',
-        'cost': '777'
+        'cost': '629'
     },
     {
         'image': '<img src="images/propolis_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Прополис-спрей" NUTRAXIN, 30 мл',
-        'cost': '777'
+        'cost': '219'
     },
     {
         'image': '<img src="images/a-oxi_formula_300px.jpg" class="img-fluid rounded catalog_img-size">',
         'descr': 'Диетическая добавка A-OXI FORMULA NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '649'
     },
     {
         'image': '<img src="images/cleanse_formula7_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка для очистки организма CLEANSE FORMULA NUTRAXIN, 14 таблеток',
-        'cost': '777'
+        'cost': '239'
     },
     {
         'image': '<img src="images/thermo_burn_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка для быстрого похудения QS THERMO BURN NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '399'
     },
     {
         'image': '<img src="images/ginkgo_biloba_300px.jpg" class="img-fluid rounded">',
         'descr': 'Растительная добавка "Гинкго билоба" NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '269'
     },
     {
         'image': '<img src="images/natural_sleep_300px.jpg" class="img-fluid rounded">',
         'descr': 'Растительная добавка NATURAL SLEEP NUTRAXIN, 60 капсул',
-        'cost': '777'
+        'cost': '359'
     },
     {
         'image': '<img src="images/bromelain_300px.jpg" class="img-fluid rounded">',
         'descr': 'Растительная добавка "Бромелайн" NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '429'
     },
     {
         'image': '<img src="images/milk_thistlegit_300px.jpg" class="img-fluid rounded">',
         'descr': 'Растительная добавка "Расторопша" NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '339'
     },
     {
         'image': '<img src="images/ultra_men_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка для мужчин ULTRAMEN NUTRAXIN, 60 таблеток',
-        'cost': '777'
+        'cost': '729'
     },
     {
         'image': '<img src="images/vitamin_c_300px.jpg" class="img-fluid rounded">',
         'descr': 'Диетическая добавка "Витамин С" NUTRAXIN, 28 таблеток',
-        'cost': '777'
+        'cost': '319'
     }
 ];
 
 let catalogArrayModal = [{
-        'image': '<img src="images/artroflex_gel.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/artroflex_gel.jpg" class="img-fluid rounded">',
         'title': 'Гель ARTROFLEX NUTRAXIN, 100 мл',
         'subtitle': 'Код 4743015',
         'descrTitle': 'ПОДВИЖНЫЕ СУСТАВЫ<br>АКТИВНАЯ ЖИЗНЬ',
@@ -138,7 +138,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/artroflex_red.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/artroflex_red.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка ARTROFLEX HYA-C-II NUTRAXIN, 90 таблеток',
         'subtitle': 'Код 4743016',
         'descrTitle': 'ПОДВИЖНЫЕ СУСТАВЫ<br>АКТИВНАЯ ЖИЗНЬ',
@@ -155,7 +155,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/b-one_formula.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/b-one_formula.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка B-ONE FORMULA NUTRAXIN, 90 таблеток',
         'subtitle': 'Код 4743026',
         'descrTitle': 'ТВЕРДЫЙ СКЕЛЕТ<br>КРЕПКИЕ КОСТИ',
@@ -167,7 +167,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/CoQ-10.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/CoQ-10.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Коэнзим Q10" NUTRAXIN, 30 капсул',
         'subtitle': 'Код 4743018',
         'descrTitle': 'ЭЛИКСИР МОЛОДОСТИ<br>ПРОТЕКТОР СЕРДЦА И СОСУДОВ',
@@ -186,7 +186,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/immun-s.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/immun-s.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка IMMUN-S NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743020',
         'descrTitle': 'СКОРАЯ ПОМОЩЬ ИММУННОЙ СИСТЕМЕ',
@@ -198,7 +198,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/saw_palmetto_formula.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/saw_palmetto_formula.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка SAW PALMETTO FORMULA NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743023',
         'descrTitle': 'ПОДДЕРЖКА ЗДОРОВЬЯ И АКТИВНОСТИ МУЖЧИН',
@@ -210,7 +210,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/chromium_picolinate.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/chromium_picolinate.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Пиколинат хрома" NUTRAXIN, 90 таблеток',
         'subtitle': 'Код 4743002',
         'descrTitle': 'ПРОФИЛАКТИКА САХАРНОГО ДИАБЕТА<br>СНИЖЕНИЕ ТЯГИ К СЛАДКОМУ',
@@ -226,7 +226,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/zinc_sulphate.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/zinc_sulphate.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Цинк" NUTRAXIN, 100 таблеток',
         'subtitle': 'Код 4743005',
         'descrTitle': 'ПРОТЕКТОР ЖЕНСКОЙ КРАСОТЫ И МУЖСКОЙ СИЛЫ',
@@ -244,7 +244,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/folic_acid.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/folic_acid.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Фолиевая кислота" NUTRAXIN, 100 таблеток',
         'subtitle': 'Код 4743003',
         'descrTitle': 'ВИТАМИН ЖЕНСКОГО ЗДОРОВЬЯ',
@@ -264,7 +264,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/selenium.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/selenium.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Селен" НУТРАКСИН, 100 таблеток',
         'subtitle': 'Код 4743006',
         'descrTitle': 'МОЩНЫЙ АНТИОКСИДАНТ',
@@ -283,7 +283,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/biotin.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/biotin.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Биотин 5000 мкг" NUTRAXIN, 30 таблеток',
         'subtitle': 'Код 4743013',
         'descrTitle': 'БИОТИН - ВИТАМИН КРАСОТЫ',
@@ -300,7 +300,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/vitamin_d3.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/vitamin_d3.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Витамин D3" NUTRAXIN, 120 таблеток',
         'subtitle': 'Код 4743004',
         'descrTitle': 'ВИТАМИН РАДОСТИ',
@@ -319,7 +319,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/vitamin_b12.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/vitamin_b12.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Витамин В12" NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743012',
         'descrTitle': 'ЗАЩИТА НЕРВНОЙ СИСТЕМЫ<br>НОРМАЛИЗАЦИЯ КРОВЕТВОРЕНИЯ',
@@ -341,7 +341,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/psyllium_husk_fiber.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/psyllium_husk_fiber.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Псилиум клетчатка" NUTRAXIN, 30 саше',
         'subtitle': 'Код 4743010',
         'descrTitle': 'СНИЖЕНИЕ АППЕТИТА И КОНТРОЛЬ ВЕСА',
@@ -360,7 +360,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/propolis.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/propolis.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Прополис-спрей" NUTRAXIN, 30 мл',
         'subtitle': 'Код 4743007',
         'descrTitle': 'АПТЕЧКА В ОДНОМ ФЛАКОНЕ',
@@ -381,7 +381,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/a-oxi_formula.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/a-oxi_formula.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка A-OXI FORMULA NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743014',
         'descrTitle': 'В ЗДОРОВОМ ТЕЛЕ СИЛЬНЫЙ ИММУНИТЕТ',
@@ -398,7 +398,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/cleanse_formula7.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/cleanse_formula7.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка для очистки организма CLEANSE FORMULA NUTRAXIN, 14 таблеток',
         'subtitle': 'Код 4743008',
         'descrTitle': 'ТРОЙНОЙ ДЕТОКС',
@@ -414,7 +414,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/thermo_burn.jpg" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/thermo_burn.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка для быстрого похудения QS THERMO BURN NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743009',
         'descrTitle': 'АКТИВАЦИЯ МЕТАБОЛИЗМА И СЖИГАНИЯ ЖИРОВ',
@@ -430,7 +430,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/ginkgo_biloba.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/ginkgo_biloba.jpg" class="img-fluid rounded">',
         'title': 'Растительная добавка "Гинкго билоба" NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743019',
         'descrTitle': 'ГИНКГО - ВАЖНЕЙШЕЕ РАСТЕНИЕ НА ПЛАНЕТЕ',
@@ -442,7 +442,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/natural_sleep.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/natural_sleep.jpg" class="img-fluid rounded">',
         'title': 'Растительная добавка NATURAL SLEEP NUTRAXIN, 60 капсул',
         'subtitle': 'Код 4743022',
         'descrTitle': 'НОРМАЛИЗАЦИЯ РЕЖИМА СНА',
@@ -454,7 +454,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/bromelain.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/bromelain.jpg" class="img-fluid rounded">',
         'title': 'Растительная добавка "Бромелайн" NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743017',
         'descrTitle': '',
@@ -466,7 +466,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/milk_thistle.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/milk_thistle.jpg" class="img-fluid rounded">',
         'title': 'Растительная добавка "Расторопша" NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743015',
         'descrTitle': 'НАДЕЖНЫЙ ЗАЩИТНИК ПЕЧЕНИ',
@@ -478,10 +478,11 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/ultra_men.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/ultra_men.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка для мужчин ULTRAMEN NUTRAXIN, 60 таблеток',
         'subtitle': 'Код 4743024',
-        'descrTitle': 'Активная формула диетической добавки "ULTRAMEN" на основе L-аргинина и женьшеня разработана для улучшения и поддержки общего и полового здоровья мужчин.<br>Эффект от применения:',
+        'descrTitle': '',
+        'descr': 'Активная формула диетической добавки "ULTRAMEN" на основе L-аргинина и женьшеня разработана для улучшения и поддержки общего и полового здоровья мужчин.<br>Эффект от применения:',
         'list': ['усиление и поддержка сексуального желания и половой активности',
             'ускорение производства оксида азота в организме, который улучшает кровообращение в половых органах и повышает эрекцию',
             'поддержка общего состояния здоровья и повышение жизненной энергии',
@@ -494,7 +495,7 @@ let catalogArrayModal = [{
         'cost': '777'
     },
     {
-        'image': '<img src="images/vitamin_c.png" class="img-fluid rounded">',
+        'image': '<img src="images/jpg/vitamin_c.jpg" class="img-fluid rounded">',
         'title': 'Диетическая добавка "Витамин С" NUTRAXIN, 28 таблеток',
         'subtitle': 'Код 4743025',
         'descrTitle': 'ВИТАМИН БОДРОСТИ И СТАЛЬНЫХ НЕРВОВ',
