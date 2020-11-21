@@ -180,10 +180,11 @@ $(document).ready(function() {
 
     $('#viberButton').on('click', function() {
         var md = new MobileDetect(window.navigator.userAgent);
-        if (md.mobile()) {
-            location.href = 'viber://add?number=+380971535340'
-        } else {
-            location.href = 'viber://chat?number=+380971535340'
-        }
+        location.href = 'viber://add?number=+380971535340'
+            /*if (md.mobile()) {
+                location.href = 'viber://add?number=+380971535340'
+            } else {
+                location.href = 'viber://chat?number=+380971535340'
+            }*/
     });
 });
