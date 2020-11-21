@@ -177,4 +177,12 @@ $(document).ready(function() {
     function formSuccess() {
         $("#thanks").modal('show');
     }
+
+    $('#viberButton').on('click', function() {
+        if ($.browser.mobile) {
+            location.href = 'viber://add?number=+380971535340'
+        } else {
+            location.href = 'viber://chat?number=+380971535340'
+        }
+    });
 });
