@@ -178,13 +178,10 @@ $(document).ready(function() {
         $("#thanks").modal('show');
     }
 
-    /*$('#viberButton').on('click', function() {
+    $('#viberButton').on('click', function() {
         var md = new MobileDetect(window.navigator.userAgent);
-        location.href = 'viber://chat?number=%2B380971535340'
-            if (md.mobile()) {
-                location.href = 'viber://add?number=+380971535340'
-            } else {
-                location.href = 'viber://chat?number=+380971535340'
-            }
-    });*/
+        if (!md.mobile()) {
+            this.href = 'viber://chat?number=%2B380971535340'
+        }
+    });
 });
