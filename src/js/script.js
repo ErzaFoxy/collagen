@@ -155,7 +155,7 @@ $(document).ready(function() {
         };
         $.ajax({
             type: "POST",
-            url: "https://formsubmit.co/ajax/erzafoxy55565@gmail.com",
+            url: "https://formsubmit.co/ajax/08b962d8df8b3a65507ca7c0941a8f72",
             data: {
                 name: $('input[name=name]', form).val(),
                 phone: $('input[name=phone]', form).val(),
